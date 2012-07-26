@@ -1,5 +1,5 @@
 {
-    "hash": "5bf41b7681091d016c3ba913e32ce794",
+    "hash": "e9dc0df2621e00280cbdab749f686531",
     "packages": [
         {
             "package": "alchemy/Phlickr",
@@ -33,21 +33,43 @@
         },
         {
             "package": "doctrine/common",
-            "version": "2.2.2"
+            "version": "2.3.x-dev",
+            "source-reference": "b0ed9cc35ec28b7cd23d3d001e6fd4c7b5092926",
+            "commit-date": "1343082138"
         },
         {
             "package": "doctrine/dbal",
-            "version": "2.2.2"
+            "version": "2.3.x-dev",
+            "source-reference": "3d426e5b3957790b97008c341ac6e53e08a50503",
+            "commit-date": "1343082205"
         },
         {
             "package": "doctrine/orm",
-            "version": "2.2.2"
+            "version": "2.3.0-BETA1"
         },
         {
             "package": "gedmo/doctrine-extensions",
-            "version": "2.2.x-dev",
-            "source-reference": "v2.2.3",
-            "commit-date": "1339767845"
+            "version": "dev-master",
+            "alias-pretty-version": "2.3.x-dev",
+            "alias-version": "2.3.9999999.9999999-dev"
+        },
+        {
+            "package": "gedmo/doctrine-extensions",
+            "version": "dev-master",
+            "source-reference": "9898253452a37733d278af6fc595b059327c4218",
+            "commit-date": "1342872222"
+        },
+        {
+            "package": "guzzle/common",
+            "version": "v2.8.2"
+        },
+        {
+            "package": "guzzle/http",
+            "version": "v2.8.2"
+        },
+        {
+            "package": "guzzle/parser",
+            "version": "v2.8.2"
         },
         {
             "package": "imagine/Imagine",
@@ -104,8 +126,8 @@
         {
             "package": "phpexiftool/phpexiftool",
             "version": "dev-master",
-            "source-reference": "5dc6e9a21e4b0faf6809070bc4f1cc4fef06ead6",
-            "commit-date": "1339680734"
+            "source-reference": "3e63a2713cfb15efdc7aa6b49e61080c31b5310d",
+            "commit-date": "1343328301"
         },
         {
             "package": "pimple/pimple",
@@ -128,8 +150,8 @@
         {
             "package": "silex/silex",
             "version": "dev-master",
-            "source-reference": "3ae77d823cc30dcfe4ec342614c8f400abb26657",
-            "commit-date": "1342943573"
+            "source-reference": "337af0c031195d58a5502358ab78c4f30caa7fd0",
+            "commit-date": "1343211515"
         },
         {
             "package": "swftools/swftools",
@@ -150,8 +172,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "2aaa4ed84e56ad8e3420e696f6a42231d30bc1d2",
-            "commit-date": "1343064472"
+            "source-reference": "e1c65fa9c0330f9dfc44355112c7c63bd1fd3b14",
+            "commit-date": "1343312182"
         },
         {
             "package": "tcpdf/tcpdf",
@@ -206,8 +228,8 @@
         {
             "package": "behat/mink-extension",
             "version": "dev-master",
-            "source-reference": "da58c1b572349310ce5b65066a4d8b7e487a63a7",
-            "commit-date": "1342818063"
+            "source-reference": "bef6818b9538ef9ba75d1f5845fe71c1f5621ad1",
+            "commit-date": "1343146519"
         },
         {
             "package": "behat/mink-goutte-driver",
@@ -230,18 +252,14 @@
         {
             "package": "fabpot/goutte",
             "version": "dev-master",
-            "source-reference": "c2ea8d9a6682d14482e57ede2371001b8a5238d2",
-            "commit-date": "1340264258"
+            "source-reference": "df14259688c7d6f1d366aa073a589695d2b9f451",
+            "commit-date": "1343194442"
         },
         {
             "package": "fabpot/php-cs-fixer",
             "version": "dev-master",
-            "source-reference": "4c4bc75cc179ff91bb83960ae7dacca6754d2c46",
-            "commit-date": "1342957711"
-        },
-        {
-            "package": "guzzle/guzzle",
-            "version": "v2.6.6"
+            "source-reference": "55701d65622b72cbe0db8d8f9136d36e45b2f7f4",
+            "commit-date": "1343202851"
         },
         {
             "package": "instaclick/php-webdriver",
