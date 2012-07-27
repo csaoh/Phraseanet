@@ -40,7 +40,9 @@ class Bridge_AccountTest extends PhraseanetPHPUnitAuthenticatedAbstract
     public function tearDown()
     {
         $appbox = appbox::get_instance(\bootstrap::getCore());
-        $this->object->delete();
+        if ($this->object instanceof Bridge_Account) {
+            $this->object->delete();
+        }
 
         try {
             new Bridge_Account($appbox, $this->api, $this->id);
